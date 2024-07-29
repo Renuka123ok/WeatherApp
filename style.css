@@ -1,0 +1,65 @@
+html{
+    font-family: sans-serif;
+}
+header{
+    height: 150px;
+    background-color: #2c3e50;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-input{
+    font-size: 1.1rem;
+    outline: none;
+    color: white;
+    background-color: transparent;
+    padding: 1 rem 0;
+    border: none;
+    border-bottom: 2px solid white;
+    width: 84%;
+   
+}
+#search{
+    background-color: #38b298;
+    font-size: 1.1rem;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+}
+main{
+    height: calc(100vh - 150px);
+    background-color: #01161E;;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.weather-container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 5rem;
+}
+.location{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.condition {
+    text-align: center;
+}
+.temprature{
+    font-size: large;
+}
+.location-date{
+    padding-top: 1rem;
+}
+.temprature{
+    font-size: 30px;
+    padding-bottom: 1rem;
+}
